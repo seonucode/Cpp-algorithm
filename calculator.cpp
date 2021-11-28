@@ -24,18 +24,6 @@ double max_val = -INFINITY;				// Maximum value of mathematical expressions
 char max_s[MAX_EXPR_LENGTH + 1] = "";	// Expression which returns the maximum value
 
 int main() {
-	/*
-	CE() TEST
-	
-	*/
-	int idx = 0;
-	int& r_idx = idx;
-	idx = 0;
-	// cout << EvaluateTerm("6+4^2*3-9/3", r_idx) << endl;
-	idx = 0;
-	cout << CalculateExpression("42*3-9", r_idx) << endl;
-	
-	/*
 	char s[MAX_EXPR_LENGTH + 1] = "";
 	int idx;
 
@@ -61,7 +49,7 @@ int main() {
 		cout << "Maximum Value: " << max_val << endl;
 		cout << "Expression: " << max_s << endl;
 	}
-	*/
+	
 	return 0;
 }
 
